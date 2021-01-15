@@ -1,5 +1,5 @@
-<!-- A traves de esta vista podemos mostramos mediante solicitud url de un ID especifico que querramos ver 
-es decir, debemos anotar en la dirección URL despues de   http://127.0.0.1:8000/personas/   el valor del id interesado.
+<!-- A traves de esta vista podemos mostrar mediante solicitud url de un ID especifico que querramos ver
+es decir, debemos anotar en la dirección URL despues de   http://localhost/personas/   el valor del id interesado.
 
 -->
 

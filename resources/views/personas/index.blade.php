@@ -1,7 +1,7 @@
 <!--Vista de los diferentes registros-->
 
 
-@extends("../layouts.plantilla") 
+@extends("../layouts.plantilla")
 
 @section("cabecera")
 
@@ -10,7 +10,7 @@
 
 @section("contenido")
 
-<!-- Se crea una fila con los titulos de la tabla -->
+<!-- Campos de la tabla -->
 <table>
 
 <tr>
@@ -28,7 +28,7 @@
 	<td>{{$persona->Apellido}}</td>
 	<td>{{$persona->Email}}</td>
 	<td>{{$persona->Edad}}</td>
-	<td>{{$persona->Telefono}}</td>	
+	<td>{{$persona->Telefono}}</td>
 </tr>
 	@endforeach
 
