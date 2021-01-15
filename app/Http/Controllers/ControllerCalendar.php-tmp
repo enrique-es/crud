@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers;
+
+class ControllerCalendar extends Controller {
+	public function () {
+
+		$month = date("Y-m");
+		$data  = $this->calendar_month($month);
+		$mes   = $data['month'];
+		// obtener mes en espanol
+		$mespanish = $this->spanish_month($mes);
+		$mes       = $data['month'];
+
+		return view("index", [
+				'data'      => $data,
+				'mes'       => $mes,
+				'mespanish' => $mespanish
+			]);
+
+	}
